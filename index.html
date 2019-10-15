@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<link rel="stylesheet" href="style.css">
+		<title>RGB Covert HEX</title>
+		
+</head>
+
+
+<body>
+	<div id="container">
+    <table>
+			<thead>
+				<tr>
+					<th><h2>RGB</h2></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><b class="r">R</b><input type="range" min="0" max="255" value="255" id="r" onchange="changeRange()"><b class="r" id="r-label">255</b></td>
+				</tr>
+				<tr>
+					<td><b class="g">G</b><input type="range" min="0" max="255" value="255" id="g" onchange="changeRange()"><b class="g" id="g-label">255</b></td>
+				</tr>
+				<tr>
+					<td><b class="b">B</b><input type="range" min="0" max="255" value="255" id="b" onchange="changeRange()"><b class="b" id="b-label">255</b></td>
+				</tr>
+			</tbody>
+		</table>
+		<h1 id="hex-label">#ffffff</h1>
+	</div>
+
+	
+	<script src="main.js"></script>
+
+</body>
+</html>
